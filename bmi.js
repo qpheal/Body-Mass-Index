@@ -2,7 +2,7 @@
 // Measure of body fat based on height and weight
 
 function bmi(weight, height){
-    let bmiValue = weight / (height * height )
+    let bmiValue = weight / (height ** 2 )
     if (bmiValue >= 0 && bmiValue < 18.5){
         return "Your BMI value is "+ bmiValue + ". You are underweight"
     } else if (bmiValue >= 18.5 && bmiValue < 25){
