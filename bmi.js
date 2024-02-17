@@ -4,10 +4,11 @@
 function bmi(weight, height){
     let bmiValue = weight / (height * height )
     if (bmiValue < 18.5){
-        console.log("Your BMI value is ", bmiValue, ". You are underweight")
-    }
+        return "Your BMI value is "+ bmiValue + ". You are underweight"
+    } else if (bmiValue >= 18.5 && bmiValue < 25){
+        return "Your BMI value is "+ bmiValue + ". You are underweight"
+    } 
 }
 
-const test = bmi(75, 3)
-
+const test = bmi(80, 2)
 console.log(test)
