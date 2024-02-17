@@ -17,4 +17,4 @@ function bmi(weight, height){
 
 
 const test = bmi(90, 1.2)
-console.log(test)
+console.log(test) //You have severe obesity
